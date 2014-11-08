@@ -51,8 +51,6 @@ AC_ISC_POSIX
 AC_HEADER_STDC
 AM_PROG_LIBTOOL
 
-IT_PROG_INTLTOOL([0.35.0])
-
 # check ibus
 PKG_CHECK_MODULES(IBUS, [
     ibus-1.0 >= 1.3.99
@@ -79,10 +77,10 @@ AM_PATH_PYTHON([2.5])
 GETTEXT_PACKAGE=ibus-hangul
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Define to the read-only architecture-independent data directory.])
+IT_PROG_INTLTOOL([0.35.0])
 
-AM_GNU_GETTEXT([external])
-AM_GNU_GETTEXT_VERSION([0.17])
 
+GLIB_GSETTINGS
 
 # OUTPUT files
 AC_CONFIG_FILES([ po/Makefile.in
@@ -93,6 +91,7 @@ src/hangul.xml.in
 setup/Makefile
 icons/Makefile
 data/Makefile
+data/org.freedesktop.ibus.hangul.gschema.xml.in
 m4/Makefile
 ])
 

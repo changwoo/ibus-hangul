@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="ibus-hangul">
+  <schema path="/desktop/ibus/engine/hangul/" id="org.freedesktop.ibus.hangul">
+    <key name="hangul-keyboard" type="s">
+      <default>'2'</default>
+      <_summary>Hangul keyboard</_summary>
+      <_description>ID of the Hangul keyboard to use. This is used as the argument for hangul_ic_new() in libhangul library.</_description>
+    </key>
+    <key name="initial-input-mode" type="s">
+      <default>'latin'</default>
+      <_summary>Start in Hangul mode</_summary>
+      <_description>Ibus-hangul starts in direct mode on 'latin' or in Hangul mode on 'hangul'.</_description>
+    </key>
+    <key name="word-commit" type="b">
+      <default>false</default>
+      <_summary>Commit in word unit</_summary>
+      <_description>If true, text will be committed by words, not by characters.</_description>
+    </key>
+    <key name="auto-reorder" type="b">
+      <default>true</default>
+      <_summary>Automatic reordering</_summary>
+    </key>
+    <key name="switch-keys" type="as">
+      <default>['Hangul','Shift+space']</default>
+      <_summary>Hangul toggle keys</_summary>
+      <_description>List of keys which toggle between Hangul and Latin mode.</_description>
+    </key>
+    <key name="hanja-keys" type="as">
+      <default>['Hangul_Hanja','F9']</default>
+      <_summary>Hanja keys</_summary>
+      <_description>List of keys which open the Hanja selection UI.</_description>
+    </key>
+  </schema>
+</schemalist>

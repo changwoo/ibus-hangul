@@ -16,6 +16,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:1
+msgid "Hangul keyboard"
+msgstr "한글 자판"
+
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:2
+msgid ""
+"ID of the Hangul keyboard to use. This is used as the argument for "
+"hangul_ic_new() in libhangul library."
+msgstr ""
+"사용할 한글 키보드의 ID. libhangul 라이브러리의 hangul_ic_new() 인자로 사용됩"
+"니다."
+
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:3
+msgid "Start in Hangul mode"
+msgstr "한글 모드로 시작"
+
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:4
+msgid ""
+"Ibus-hangul starts in direct mode on 'latin' or in Hangul mode on 'hangul'."
+msgstr "'latin'이면 영문 모드로 시작하고, 'hangul'이면 한글 모드로 시작합니다."
+
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:5
+msgid "Commit in word unit"
+msgstr "단어 단위로 입력"
+
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:6
+msgid "If true, text will be committed by words, not by characters."
+msgstr "참이면 단어 단위로 입력됩니다. 아니면 문자 단위로 입력됩니다."
+
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:7
+msgid "Automatic reordering"
+msgstr "자동 순서 교정"
+
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:8
+msgid "Hangul toggle keys"
+msgstr "한영전환키"
+
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:9
+msgid "List of keys which toggle between Hangul and Latin mode."
+msgstr "한글과 영문 모드를 전환하는 키 목록."
+
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:10
+msgid "Hanja keys"
+msgstr "한자키"
+
+#: ../data/org.freedesktop.ibus.hangul.gschema.xml.in.in.h:11
+msgid "List of keys which open the Hanja selection UI."
+msgstr "한자 선택 인터페이스를 여는 키 목록."
+
 #: ../setup/keycapturedialog.py:15
 msgid ""
 "Press any key which you want to use as hanja key. The key you pressed is "

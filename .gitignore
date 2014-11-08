@@ -48,6 +48,11 @@ po/*.pot
 po/stamp-po
 po/stamp-it
 
+# files for data
+data/org.freedesktop.ibus.hangul.gschema.xml
+data/org.freedesktop.ibus.hangul.gschema.xml.in
+data/org.freedesktop.ibus.hangul.gschema.valid
+
 # files for setup
 setup/config.py
 setup/ibus-setup-hangul

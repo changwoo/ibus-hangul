@@ -1,3 +1,4 @@
+data/org.freedesktop.ibus.hangul.gschema.xml.in.in
 setup/keycapturedialog.py
 setup/main.py
 setup/ibus-setup-hangul.desktop.in

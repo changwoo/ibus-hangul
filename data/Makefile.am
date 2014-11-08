@@ -19,11 +19,20 @@
 # Free Software Foundation, Inc., 59 Temple Place, Suite 330,
 # Boston, MA  02111-1307  USA
 
+CLEANFILES =
+
 symboltable_DATA = \
 	symbol.txt \
 	$(NULL)
 
 symboltabledir = $(datadir)/ibus-hangul/data
+
+# GSettings schemas file
+gsettings_SCHEMAS = org.freedesktop.ibus.hangul.gschema.xml
+CLEANFILES += $(gsettings_SCHEMAS)
+
+@INTLTOOL_XML_NOMERGE_RULE@
+@GSETTINGS_RULES@
 
 EXTRA_DIST = \
 	$(symboltable_DATA) \
